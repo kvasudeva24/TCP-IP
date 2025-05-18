@@ -1,1 +1,14 @@
-Testing
+TCP: Transmission Protocol Network
+IP: Internet Protocol
+
+1.1 
+
+Internet is the ability to provide communication and the WWW is an app that uses the Internet
+
+Packet Switching: Packets are sent on different paths across the internet and reconstructed.
+Use a buffer memory to reconstruct. Multiplexing helps share one delivery route (or connection) between many senders and receivers.
+
+End to End Argument + Fate Sharing: TCP/IP is designed around the end-to-end argument: the network stays simple, and the complexity is handled at the ends — making it powerful, adaptable, and reliable for everything from texts to space missions. 
+If one endpoint (like your computer) fails or disconnects, it’s okay to lose the connection info or any in-progress data, because the other side can’t use it anymore anyway.
+
+
