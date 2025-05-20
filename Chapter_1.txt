@@ -12,3 +12,52 @@ End to End Argument + Fate Sharing: TCP/IP is designed around the end-to-end arg
 If one endpoint (like your computer) fails or disconnects, it’s okay to lose the connection info or any in-progress data, because the other side can’t use it anymore anyway.
 
 
+1.2
+
+Open Systems Interconnections Model (OSI) --> how data travels through a network
+All People Seem To Need Data Processing --> Mnemonic
+
+Layer 7: Application
+Layer 6: Presentation
+Layer 5: Session
+Layer 4: Transport
+Layer 3: Network
+Layer 2: Data Link 
+Layer 1: Physical 
+
+Application: You interact with some web applicaton (Chrome) and make a request
+Presentation: Your computer takes that request and compresses/encrypts the data so that the network on the other end is the only one that can see it
+Session: Your devices starts a session to send data (your device is saying to the other device im ready to send and im ready to recieve)
+Transport: Finds that the path exists to the other device and adds a TCP header
+Network: Adds an IP address to figure out the best route
+Data Link: Adds MAC addresses and makes sure it reaches the next data pipeline
+Physical: Bits changing and movig through wires, fiber, air
+
+MAC Address: Finds device on local network
+
+Encapsulation:
+As data moves down the 7 OSI layers, each layer adds its own header to the Protocol Data Unit (PDU). 
+This process is called encapsulation.
+
+These headers contain instructions and information for the corresponding layer at the receiving end, allowing the data to be unwrapped correctly and delivered exactly as it was formed at the Application layer — without changing the original request.
+
+
+Multiplexing:
+Multiplexing is the process of combining multiple data streams (from different sources or apps) into a single output stream for transmission over a network.
+It allows multiple connections — like your browser, Zoom, and Spotify — to share the same network link, like your Wi-Fi or Ethernet.
+
+A PDU at the Transport Layer is multiplexed by assigning it a TCP (or UDP) header, which includes source and destination port numbers.
+This header lets the receiver know which application or process the data belongs to.
+At the receiving end, the packet is temporarily stored in buffer memory, and demultiplexed using the port number — sending it to the correct queue or process for that application.
+
+Each recieving port has a buffer memory and queue to demultiplex.
+Demultiplexing is the process where the receiving computer uses the port number in the TCP or UDP header to identify which application or process the incoming data belongs to.
+The data is first temporarily stored in buffer memory, then sent to the correct queue associated with that port number — where the receiving application can read it.
+
+In a typical data path from one host to another, hosts implement all 7 OSI layers to create, send, and process data. 
+A router, which connects networks, operates at Layers 1–3, using IP addresses to route packets across networks.
+A switch, operating at Layers 1–2, uses MAC addresses to deliver the data within the destination network to the correct host.
+
+
+1.3
+
