@@ -61,3 +61,37 @@ A switch, operating at Layers 1–2, uses MAC addresses to deliver the data with
 
 1.3
 
+APARNET Model has 4 layers:
+1st layer is the Network Interface layer
+ARP used to map IP addresses to MAC addresses on a local network
+ARP gets the mac address of the device you want to send to and caches it for future use
+ARP used on the beginning and end of the journey
+IPv4 is used by routers to transmit over the internet
+
+2nd layer: is the internet layer/main layer of the TCP/IP Model
+Breaks the data into IP datagrams and fires them off
+Datagrams routed across networks
+
+3rd layer: Transport Layer
+Adds reliablity and order using TCP or UDP for speed
+TCP ensures data is delivered, nothing is lost, and a connection is established before transmission
+The difference between UDP and TCP is that TCP is reliable and slower and UDP is unreliable but very fast
+TCP used for web browsing and email
+UDP used for online games and streaminf audio and video
+
+4th: Application (same as above)
+
+Domain Name System --> basically the internets phonebook
+Lives in the application layer of the TCP IP suite 
+DNS turns names into IP
+
+You type google.com → 
+DNS translates it to an IP → 
+TCP establishes a connection → 
+IP datagrams travel across the internet → 
+Your browser receives the response via demultiplexing through the port number → 
+your screen updates with Google’s homepage.
+
+TCP handshake is SYN-ACK-SYNACK
+
+
