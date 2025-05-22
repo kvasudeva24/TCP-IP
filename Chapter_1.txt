@@ -94,4 +94,3 @@ your screen updates with Google’s homepage.
 
 TCP handshake is SYN-ACK-SYNACK
 
-

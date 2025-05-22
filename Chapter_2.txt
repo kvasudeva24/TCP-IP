@@ -1,0 +1,9 @@
+2.1 to 2.2
+
+IPv4 is a 32 bit address seperated into 4 8bit chunks like
+123.456.789.012
+
+IPv6 uses hexadecimal 0-9 and a-f for each digit so it is 8 chunks of 4characters
+You need 128 bits to encode. 16bits per chunk and 8 chunks = 128.
+
+
