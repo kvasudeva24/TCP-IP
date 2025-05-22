@@ -77,7 +77,7 @@ Adds reliablity and order using TCP or UDP for speed
 TCP ensures data is delivered, nothing is lost, and a connection is established before transmission
 The difference between UDP and TCP is that TCP is reliable and slower and UDP is unreliable but very fast
 TCP used for web browsing and email
-UDP used for online games and streaminf audio and video
+UDP used for online games and streaming audio and video
 
 4th: Application (same as above)
 
