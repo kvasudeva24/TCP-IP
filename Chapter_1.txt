@@ -92,5 +92,5 @@ IP datagrams travel across the internet →
 Your browser receives the response via demultiplexing through the port number → 
 your screen updates with Google’s homepage.
 
-TCP handshake is SYN-ACK-SYNACK
+TCP handshake is SYN-SYNACK-ACK
 
