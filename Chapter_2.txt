@@ -7,3 +7,11 @@ IPv6 uses hexadecimal 0-9 and a-f for each digit so it is 8 chunks of 4character
 You need 128 bits to encode. 16bits per chunk and 8 chunks = 128.
 
 
+2.3
+
+IPs were originally broken down into 5 classes A - E. 
+Replaced classful addressing to allow more flexible subnetting.
+IPs are paired with a subnet mask to define the network (subnet) prefix.
+Use a bitwise AND mask to find the subnet prefix for a unicast system
+For a broadcast system, invert the bitmask and OR it with the address to find the broadcast subnet prefix.
+Masks can be denoted by /x where x is the number of 1s the mask starts with
