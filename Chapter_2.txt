@@ -15,3 +15,19 @@ IPs are paired with a subnet mask to define the network (subnet) prefix.
 Use a bitwise AND mask to find the subnet prefix for a unicast system
 For a broadcast system, invert the bitmask and OR it with the address to find the broadcast subnet prefix.
 Masks can be denoted by /x where x is the number of 1s the mask starts with
+
+2.4
+Introdcution to CIDR and we got rid of the class method
+CIDR helps keep track of using only what you need in a tree structure
+Aggregation makes routing tables smarter and faster
+So if you break 192.168.0.0/16 into:
+
+192.168.0.0/24
+
+192.168.1.0/24
+
+...
+
+You’re just making branches and twigs from the big tree.
+
+You keep going until you get a /32 IP address which means you are at a leaf and is an IP address that is being used
