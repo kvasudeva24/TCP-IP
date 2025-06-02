@@ -31,3 +31,11 @@ So if you break 192.168.0.0/16 into:
 You’re just making branches and twigs from the big tree.
 
 You keep going until you get a /32 IP address which means you are at a leaf and is an IP address that is being used
+
+
+2.5/2.6
+
+A Regional Internet Registry (RIR) is responsible for managing and distributing IP address space (both IPv4 and IPv6) and Autonomous System Numbers (ASNs) within specific geographic regions. 
+There are five RIRs in the world.
+Each RIR allocates blocks of IP addresses to ISPs, large organizations, or national registries in their region, who then assign them to end users. 
+This system ensures global coordination and prevents conflicts or duplicate usage of IPs
