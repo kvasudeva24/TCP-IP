@@ -1,0 +1,4 @@
+3.1
+
+CSMA/CD is a link layer protocol that helps devices avoid or recover from collisions on a shared transmission medium. 
+It was key to making early Ethernet work efficiently. Now not in current ethernet because of ethernet switches.
